@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "Alibaba-Bold";
+  src: url("Alibaba-PuHuiTi-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Alibaba-Heavy";
+  src: url("Alibaba-PuHuiTi-Heavy.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Alibaba-Medium";
+  src: url("Alibaba-PuHuiTi-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Alibaba-Regular";
+  src: url("Alibaba-PuHuiTi-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

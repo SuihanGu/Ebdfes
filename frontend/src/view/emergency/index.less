@@ -1,0 +1,726 @@
+.emgHomeBox{
+    width: 100%;
+    height: 100%;
+    background: url('../../assets/images/smartHealth/bg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    .emgHome{
+        width: 100%;
+        height:  ~'calc(100% - 75px)';
+        padding: 8px;
+        padding-top: 0;
+        .ivu-row{
+            height: 100%;
+            .ivu-col{
+                height: 100%;
+            }
+        }
+        
+    }
+    .acctount{
+        position: absolute;
+        right: 16px;
+        display: flex;
+        align-items:center ;
+        height: 68px;
+    }
+    .colDiv{
+        color: #fff;
+        height: 100%;
+        position: relative;
+        .chartBox{
+            width: 100%;
+            background: rgba(4, 65, 136, 0.25);
+            border-radius: 4px;
+            padding: 16px;
+            .yctjBox{
+                width: 100%;
+                border-bottom: 2px solid #063763;
+                text-align: center;
+                padding: 8px 0;
+                color: #00e9ea;
+            }
+            .rule {
+                display: flex;
+                padding: 10px 0px 10px 20px;
+                height: 50px;
+                line-height: 25px;
+               .circleBox{
+                    display: flex;
+                    width: 100%;
+                    .circle {
+                        margin: 0px 5px;
+                        font-size: 14px;
+                        border-radius: 50%;
+                        color: #fff;
+                        width: 25px;
+                        text-align: center;
+                        line-height: 25px;
+                        height: 25px;
+                    }
+               }
+            }
+            .maintqBox{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 8px;
+                border-bottom: 1px solid #063763;
+                padding-bottom: 8px;
+                .curTq{
+                    display: flex;
+                    align-items: center;
+                    img{
+                        width: 35px;
+                    }
+                    .text{
+                        margin-left: 16px;
+                    }
+                }
+            }
+            .tqInfoBox{
+                display: flex;
+                justify-content: space-around;
+                padding: 8px 0;
+                .tqInfo{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    p,img{
+                        margin-top: 7px;
+                    }
+                }
+            }
+            
+            .chartTitle{
+                width: 100%;
+                line-height: 20px;
+                display: flex;
+                font-size: 16px;
+                justify-content: space-between;
+                .imgicon{
+                    width: 22px;
+                }
+                .selectBox{
+                    position: relative;
+                    border: none !important;
+                    .ivu-select-selection{
+                        background-color: transparent;
+                        border: 1px solid #063763;
+                    }
+                    .scrttseleBox{
+                        width: 120px;
+                        opacity: 0;
+                        overflow: hidden;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        white-space: nowrap;
+                    }
+                }
+                h4{
+                    display: flex;
+                    white-space: nowrap;
+                }
+                .h4txt{
+                    color: #00e9ea;
+                    // text-decoration:underline;
+                }
+                .timeChange{
+                    display: flex;
+                    justify-content: space-between;
+                    span{
+                        cursor: pointer;
+                        margin-left: 16px;
+                    }
+                    .showBd{
+                        border: 1px solid #00e9ea;
+                    }
+                }
+                .chbtn{
+                    border: 1px solid #063763;
+                    border-radius: 32px;
+                    padding: 4px 16px;
+                    margin-right: 16px;
+                    color: #fff;
+                    cursor: pointer;
+                    font-size: 16px;
+                }
+                .actchbtn,.chbtn:hover{
+                    color: #00e9ea;
+                    border: 1px solid #00e9ea;
+                }
+            }
+            .fbMapBox{
+                position: relative;
+                width: 100%;
+                height: 100%;
+                .fbMap{
+                    display: flex;
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+                    z-index: 100;
+                    .ranking{
+                        width: 30%;
+                        height: 60%;
+                    }
+
+                }
+                .progressBox{
+                    width: 50%;
+                    height: 30%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    z-index: 101;
+                    color: #fff;
+                    .progress{
+                        height: 38px;
+                        padding-right: 8px;
+                        p{
+                            font-size: 15px;
+                            line-height: 25px;
+                            white-space: nowrap;
+                        }
+                        .picBox{
+                            width: 100%;
+                            height: 32px;
+                            line-height: 32px;
+                        }
+                    }
+                }
+            }
+            
+            .baseBox{
+                margin-top: 16px;
+                color: #00e9ea;
+                display: flex;
+                flex-wrap:wrap;
+                width: 100%;
+                height:  ~'calc(100% - 36px)';
+                border: 1px solid #063763;
+                .baseItem{
+                    width: 50%;
+                    border: 1px solid #063763;
+                    display: flex;
+                    align-items: center;
+                    .text{
+                        display: flex;
+                        align-items: center;
+                        .thead{
+                            width: 68px;
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+            .baseBox2{
+                .ivu-list-item{
+                    padding: 8px 24px;
+                }
+            }
+            .ivu-list-bordered,.ivu-list-item{
+                border: 1px solid #063763;
+            }
+
+            .ssyjBox{
+                width: 100%;
+                height: ~'calc(100% - 16px)';
+                #listContent .list-item{
+                    background: transparent;
+                    color: #00e9ea;
+                    opacity: 1;
+                }
+                .ivu-list-split .ivu-list-header{
+                    border-bottom: 2px solid #063763;
+                }
+            }
+            .tt{
+                width: 100%;
+                height: 50px;
+                background-image: url('../../assets/images/shicon/title.png');
+                background-size: cover;
+                background-position: center;
+                font-family: YouSheBiaoTiHei;
+                font-size: 16px;
+                padding: 0 5px;
+                display: flex;
+                .txt{
+                    height: 35px;
+                    line-height: 35px;
+                    text-align: center;
+                }
+                img{
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 8px;
+                }
+            }
+            .countToBox {
+                font-size: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 90%;
+                color: #00e9ea;
+                .countText{
+                    display: flex;
+                    align-items: baseline;
+                }
+            }
+            .countToBox2 {
+                font-size: 25px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 50%;
+                color: #00e9ea;
+                margin-top: 8px;
+                .countText{
+                    display: flex;
+                    align-items: baseline;
+                }
+            }
+        }
+        .chartCenter{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            #container{
+                position: relative;
+                z-index: 99;
+                .clusterBubble {
+                    border-radius: 50%;
+                    color: #fff;
+                    font-weight: 500;
+                    text-align: center;
+                    opacity: 0.88;
+                    background-image: linear-gradient(139deg, #4294ff 0%, #295bff 100%);
+                    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                }
+                div :has(.ref-card){
+                    padding: 0 !important;
+                }
+            }
+            .radioInfoBox{
+                position: absolute;
+                top:16px;
+                left:16px;
+                padding: 8px;
+                background-color: rgba(2, 17, 56, 0.65);
+                z-index: 100;
+                border-radius: 8px;
+                .radioInfo{
+                    display: flex;
+                    align-items: center;
+                    font-size: 16px;
+                    font-weight: 600;
+                    padding: 4px;
+                    .circle{
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50%;
+                        border: 1px solid #fff;
+                        margin-right: 8px;
+                    }
+                }
+            }
+            .raidoBox{
+                position: absolute;
+                bottom: 116px;
+                z-index: 100;
+            }
+            .ivu-radio-group-button .ivu-radio-wrapper{
+                background: rgba(2, 17, 56, 0.85);
+                color: #fff;
+            }
+            .ivu-radio-group-button-solid .ivu-radio-wrapper-checked:not(.ivu-radio-wrapper-disabled) {
+                background: #2d8cf0;
+                color: #fff;
+            }
+            .chart-time{
+                position: absolute;
+                width: 100%;
+                bottom: 0;
+                padding-bottom: 8px;
+                height: 80px;
+                z-index: 99;
+                background: rgba(2, 17, 56, 0.85);
+            }
+            .chart-line{
+                position: absolute;
+                width: 50px;
+                // // left: 10%;
+                right: 3%;
+                bottom:200px;
+                padding-bottom: 1.5%;
+                height: 100px;
+                z-index: 99;
+            }
+            .map1,.map2,.map3{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 400px;
+                height: 400px;
+                background: url(../../assets/images/emergency/map.png) no-repeat;
+                background-size: 100% 100%;
+                opacity: 0.3;
+            }
+            .map2 {
+                width: 450px;
+                height: 450px;
+                background-image: url(../../assets/images/emergency/lbx.png);
+                opacity: 0.6;
+                animation: rotate 15s linear infinite;
+                z-index: 2;
+            }
+            .map3 {
+                width: 420px;
+                height: 420px;
+                background-image: url(../../assets/images/emergency/jt.png);
+                animation: rotate1 10s linear infinite;
+            }
+        }
+        .chartBox2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .dwimg{
+                width: 80%;
+            }
+        }
+        .chartLeft,.chartRight{
+            .demo-carousel{
+                width: 100%;
+                height: 160px;
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 100%;
+                    height: 160px;
+                }
+                video{
+                    width: 100%;
+                    height: 160px;
+                    object-fit: fill;
+                }
+            }
+        }
+        .chartLeft2{
+            height: 49.25%;
+        }
+    }
+}
+.emgHomeBox2{
+    width: 100%;
+    height: 100%;
+    background-color: #142E65;
+    background-image: url('../../assets/images/emergency/embg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    .header{
+        width: 100%;
+        height: 80px;
+        background-image: url('../../assets/images/emergency/headbg.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        line-height: 80px;
+        text-align: center;
+        font-family: '微软雅黑';
+        font-size: 29px;
+        color: #fff;
+        text-shadow: 0 0 5px rgba(32, 94, 253,.85), 
+        0 0 5px rgba(32, 94, 253,.85), 
+        0 0 5px rgba(32, 94, 253,.85), 
+        0 0 5px rgba(32, 94, 253,.85);
+    }
+    .contentBox{
+        width: 100%;
+        height: ~'calc(100% - 70px)';
+        position: relative;
+        .mapbox{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            z-index: 1;
+            display: flex;
+            justify-content: center;
+            .clusterBubble {
+                border-radius: 50%;
+                color: #fff;
+                font-weight: 500;
+                text-align: center;
+                opacity: 0.88;
+                background-image: linear-gradient(139deg, #4294ff 0%, #295bff 100%);
+                box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+                position: absolute;
+                top: 0px;
+                left: 0px;
+            }
+            div :has(.ref-card){
+                padding: 0 !important;
+            }
+            .radioInfoBox{
+                position: absolute;
+                top:16px;
+                left:466px;
+                padding: 8px;
+                background-color: rgba(2, 17, 56, 0.65);
+                z-index: 100;
+                border-radius: 8px;
+                color: #fff;
+                .radioInfo{
+                    display: flex;
+                    align-items: center;
+                    font-size: 16px;
+                    font-weight: 600;
+                    padding: 4px;
+                    .circle{
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50%;
+                        border: 1px solid #fff;
+                        margin-right: 8px;
+                    }
+                }
+            }
+            .raidoBox{
+                position: absolute;
+                bottom: 80px;
+                z-index: 100;
+            }
+            .ivu-radio-group-button .ivu-radio-wrapper{
+                background: rgba(2, 17, 56, 0.85);
+                color: #fff;
+            }
+            .ivu-radio-group-button-solid .ivu-radio-wrapper-checked:not(.ivu-radio-wrapper-disabled) {
+                background: #2d8cf0;
+                color: #fff;
+            }
+            .layerBtn2{
+                position: absolute;
+                bottom: 10px;
+                display: flex;
+                margin: auto;
+                height: 58px;
+                justify-content: center;
+                align-items: center;
+                padding: 0 20px;
+                z-index: 100;
+                .allmap{
+                    width: 52px;
+                    height: 52px;
+                    color:#fff;
+                    font-size: 30px;
+                    line-height: 52px;
+                    text-align: center;
+                    background-size: 100% 100%;
+                    background-repeat: no-repeat;
+                    background-image: url('../../assets/images/emergency/allmap.png');
+                    cursor: pointer;
+                }
+                .layerBdBox{
+                    width: 80%;
+                    display: flex;
+                    justify-content: space-around;
+                    padding-left: 20%;
+                    .layerBd{
+                        min-width: 147px;
+                        height: 48px;
+                        line-height: 48px;
+                        text-align: center;
+                        padding: 0 8px;
+                        background-size: 100% 100%;
+                        background-repeat: no-repeat;
+                        font-size: 23px;
+                        font-family: '微软雅黑';
+                        color: #3CA0BB;
+                        cursor: pointer;
+                    }
+                    .layerBd1{
+                        background-image: url('../../assets/images/emergency/mapselecbd1.png');
+                    }
+                    .layerBd2{
+                        background-image: url('../../assets/images/emergency/mapselecbd2.png');
+                    }
+                }
+                
+            }
+        }
+        .chartBox{
+            width: 100%;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            padding: 30px;
+            .ttBox{
+                height: 35px;
+                line-height: 35px;
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                font-family: '微软雅黑';
+                font-size: 22px;
+                color: #fff;
+                text-shadow: 0 0 5px rgba(32, 94, 253,.65), 
+                0 0 5px rgba(32, 94, 253,.65), 
+                0 0 5px rgba(32, 94, 253,.65), 
+                0 0 5px rgba(32, 94, 253,.65);
+            }
+            .ttBox1{
+                width: 126px;
+                background-image: url('../../assets/images/emergency/ttbg1.png');
+            }
+            .ttBox2{
+                width: 159px;
+                background-image: url('../../assets/images/emergency/ttbg2.png');
+            }
+            .ttBox3{
+                width: 206px;
+                background-image: url('../../assets/images/emergency/ttbg3.png');
+            }
+            .baseBox{
+                margin-top: 8px;
+                color: #38FCBE;
+                display: flex;
+                flex-wrap:wrap;
+                width: 100%;
+                height:  ~'calc(100% - 41px)';
+                font-family: '微软雅黑';
+                font-size: 15px;
+                border: 1px solid #586B89;
+                .baseItem{
+                    width: 100%;
+                    border: 1px solid #586B89;
+                    display: flex;
+                    align-items: center;
+                    .text{
+                        display: flex;
+                        align-items: center;
+                        .thead{
+                            // width: 68px;
+                            padding: 0 10px;
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+            .baseBox2{
+                .ivu-list-item{
+                    padding: 8px 24px;
+                }
+            }
+            .ssyjBox{
+                .listHeader{
+                    color: #FFAA45;
+                }
+                .ivu-list-header, .ivu-list-footer{
+                    padding: 0;
+                }
+                .ivu-list-split .ivu-list-header {
+                    border-bottom: 1px solid #52627E;
+                }
+                #listContent .list-item{
+                    background: transparent;
+                    opacity: 1;
+                }
+                #listContent .keyBox{
+                    color: #38FCBE;
+                }
+            }
+            
+        }
+        .chartLeft{
+            position: absolute;
+            left:10px;
+            top:0;
+            bottom: 10px;
+            z-index: 99;
+            width: 446px;
+            height: ~'calc(100% - 10px)';
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .chartBox1{
+                height: 32%;
+                background-image: url('../../assets/images/emergency/leftBd1.png');
+            }
+            .chartBox2{
+                height: 34%;
+                background-image: url('../../assets/images/emergency/leftBd2.png');
+            }
+            .chartBox3{
+                height: 40%;
+                background-image: url('../../assets/images/emergency/leftBd3.png');
+            }
+        }
+        .chartRight{
+            position: absolute;
+            right:10px;
+            top:0;
+            bottom: 10px;
+            z-index: 99;
+            width: 446px;
+            height: ~'calc(100% - 10px)';
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .chartBox1{
+                height: 36%;
+                background-image: url('../../assets/images/emergency/rightBd1.png');
+            }
+            .chartBox2{
+                height: 32%;
+                background-image: url('../../assets/images/emergency/rightBd2.png');
+            }
+            .chartBox3{
+                height: 32%;
+                background-image: url('../../assets/images/emergency/rightBd3.png');
+            }
+        }
+    }
+}
+@keyframes rotate {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+@keyframes rotate1 {
+    from {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+      transform: translate(-50%, -50%) rotate(-360deg);
+    }
+}
+.scrBox{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    cursor: pointer;
+    z-index: 1000;
+}
+.smmodal{
+    .vxe-modal--content{
+        padding: 0;
+        background: rgba(0, 45, 104, 0.85);
+        overflow: hidden;
+    }
+    .vxe-modal--box{
+        border:none;
+    }
+}
+

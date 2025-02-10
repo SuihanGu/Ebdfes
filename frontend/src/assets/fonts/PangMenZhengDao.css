@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "PangMenZhengDao";
+  src: url("PangMenZhengDao.woff2") format("woff2"),
+  url("PangMenZhengDao.woff") format("woff"),
+  url("PangMenZhengDao.ttf") format("truetype"),
+  url("PangMenZhengDao.eot") format("embedded-opentype"),
+  url("PangMenZhengDao.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PangMenZhengDao-3";
+  src: url("PangMenZhengDao3.0.ttf") format("truetype");
+
+  font-weight: normal;
+  font-style: normal;
+}

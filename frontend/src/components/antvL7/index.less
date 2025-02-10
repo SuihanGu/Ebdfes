@@ -1,0 +1,241 @@
+#gridMap{
+    width: 100%;
+    // height: 100%;
+    overflow: hidden;
+    .l7-left .l7-control {
+        display: none;
+    }
+    #l7-scene-1{
+        height: 87% !important;
+    }
+}
+#distrbution{
+    width: 100%;
+}
+#DMap{
+    width: 100%;
+    height: 100%;
+}
+#Linemap{
+    width: 100%;
+    height:  ~'calc(100% - 30px)';
+}
+#stationMap{
+    width: 100%;
+    height: ~'calc(100% - 30px)';
+}
+.colorBox{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+.colorInfo{
+    width: 17px;
+    height: 60px;
+    background: -webkit-linear-gradient(#01f736,#f73201,#01b1f7);
+    background: -o-linear-gradient(#01f736,#f73201,#01b1f7);
+    background: -moz-linear-gradient(#01f736,#f73201,#01b1f7);
+    background: linear-gradient(#01f736,#f73201,#01b1f7);
+    z-index: 2;
+    text-align: center;
+}
+.colorBox2{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    width: 17px;
+    height: 60px;
+    background: -webkit-linear-gradient(#FF4818,#F7B74A,#FFF598,#91EABC,#2EA9A1,#206C7C);
+    background: -o-linear-gradient(#FF4818,#F7B74A,#FFF598,#91EABC,#2EA9A1,#206C7C);
+    background: -moz-linear-gradient(#FF4818,#F7B74A,#FFF598,#91EABC,#2EA9A1,#206C7C);
+    background: linear-gradient(#FF4818,#F7B74A,#FFF598,#91EABC,#2EA9A1,#206C7C);
+    z-index: 2;
+}
+.ivu-modal-body {
+    padding: 16px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #4c4c4c;
+}
+// .geocoder {
+//     position:absolute;
+//     z-index:1;
+//     width:24.5%;
+//     left:50%;
+//     margin-left:-25%;
+//     top:0;
+// }
+// .loc{
+//     position:absolute;
+//     z-index:1;
+//     width:24.5%;
+//     right:50%;
+//     margin-right:-25%;
+//     top:0;
+// }
+.ivu-input{
+    height: 30px;
+    line-height: 30px;
+}
+.mapboxgl-ctrl-geocoder--input{
+    height: 29px !important;
+    font-size: 12px;
+}
+.mapboxgl-ctrl-geocoder--icon-search{
+    top:6px !important;
+    width: 18px !important;
+    height: 17px !important;
+}
+.mapboxgl-ctrl-geocoder--button{
+    top:5px !important;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+.mapboxgl-ctrl-geocoder--pin-right{
+    display: none;
+}
+.mapboxgl-ctrl-geocoder--icon{
+    fill: #fff !important;
+}
+.mapboxgl-ctrl-geocoder { 
+    min-width:100%; 
+}
+#isoLine{
+    width: 100%;
+    height: 100%;
+}
+.hmap{
+   
+}
+#Hmap{
+    width: 100%;
+    height: 100%;
+}
+.inpubox{
+    display: flex;
+    .ivu-input,.mapboxgl-ctrl-geocoder { 
+        min-width:100%; 
+        border: 1px solid #00e9ea;
+        background: rgba(15, 39, 83, 0.65);
+        color: #fff;
+    }
+    .ivu-input-prefix i, .ivu-input-suffix i{
+        color: #fff;
+    }
+    .mapboxgl-ctrl-geocoder--input{
+        color: #fff;
+        background: transparent;
+        border: none;
+    }
+    .mapboxgl-ctrl-geocoder--input:focus {
+        outline: 0;
+    }
+    input::-webkit-input-placeholder { 
+        color: #fff; 
+        -webkit-transition: color.5s; 
+    } 
+}
+#Mmap{
+    height: 100%;
+}
+#menu {
+    // background: #fff;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    right: 25%;
+    border-radius: 3px;
+    height: auto;
+    // width: 430px;
+    // border: 1px solid rgba(0,0,0,0.4);
+    font-family: 'Open Sans', sans-serif;
+    .ivu-card-head{
+        background-color: #2d8cf0;
+        color: #fff;
+        font-weight: 600;
+    }
+    .riverBox{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        .line{
+            width: 50px;
+            height: 2px;
+            margin-right: 10px;
+        }
+        .text{
+            font-size: 12px;
+        }
+    }
+    .ivu-collapse-simple,.ivu-collapse-content{
+        background-color: #0c405e;
+        -webkit-box-shadow: #aeaeae 0px 0px 10px;
+        box-shadow: #aeaeae 0px 0px 10px;
+        border: none !important;
+        color: #fff;
+    }
+    .ivu-collapse > .ivu-collapse-item > .ivu-collapse-header{
+        color: #fff;
+    }
+    .mapboxgl-popup-content{
+        h2{
+            color: #aaa;
+        }
+    }
+}
+#cardBox{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+.mybox-leave-active,
+.mybox-enter-active {
+  transition: all 0.2s ease;
+}
+.mybox-leave-active,
+.mybox-enter {
+  width: 0px !important;
+}
+.mybox-leave,
+.mybox-enter-active {
+  width: 300px;
+}
+.l7-popup-content{
+    color: #000;
+    padding: 0 4px;
+    font-size: 12px;
+}
+.layerBtn{
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    font-size: 26px;
+    color: #999;
+    padding: 12px;
+    border-radius: 2px;
+}
+.layerBox{
+    padding: 16px;
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    border-radius: 2px;
+    color: #000;
+    z-index: 99;
+}
+.chackBox{
+    position: relative;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    cursor: pointer;
+    img{
+        height: 25px;
+    }
+}
+

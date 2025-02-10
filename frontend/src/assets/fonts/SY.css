@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "SY";
+  src: url("SY.woff2") format("woff2"),
+       url("SY.woff") format("woff"),
+       url("SY.ttf") format("truetype"),
+       url("SY.eot") format("embedded-opentype"),
+       url("SY.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* @font-face {
+    font-family: 'FZCYJ';
+    src: url('FZCYJ.ttf');
+    font-weight: normal;
+    font-style: normal;
+} */
