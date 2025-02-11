@@ -14,9 +14,13 @@
 npm install
 ```
 ## Development
+```bash
 - npm run dev
+```
 ## Build
+```bash
 - npm run build
+```
 ## Auto Adjust to Screen Size
 ```bash
 function refreshRem(){
