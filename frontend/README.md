@@ -12,11 +12,13 @@
 ### Install Dependencies
 ```bash
 npm install
+```
 ## Development
 - npm run dev
 ## Build
 - npm run build
 ## Auto Adjust to Screen Size
+```bash
 function refreshRem(){
     var width = docEl.getBoundingClientRect().width;
     if (width / dpr > 540) {
@@ -28,3 +30,4 @@ function refreshRem(){
     docEl.style.fontSize = rem + 'px';
     flexible.rem = win.rem = rem;
 }
+```
