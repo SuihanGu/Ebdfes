@@ -36,7 +36,7 @@ Example data can be found in the `/exposure_data` directory.
 
 ## 5. API and Frontend
 - Function: Provides an intuitive display of earthquake consequences
-- Deployment: Relevant programs can be found in the `/api` and `/frontend` directories
+- Deployment: Relevant programs can be found in the `/frontend/src/api` and `/frontend` directories
 
 ## 6. Supporting Literature
 - [1] ZHAO D, WANG Z, WANG J, et al. A Rapid Estimation Method for Post-earthquake Building Losses [J]. *International Journal of Disaster Risk Science*, 2023: 1-12.
